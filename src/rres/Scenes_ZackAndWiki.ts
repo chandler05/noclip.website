@@ -1,19 +1,19 @@
 
-import * as BRRES from './brres';
-import * as Viewer from '../viewer';
-import * as UI from '../ui';
+import * as BRRES from './brres.js';
+import * as Viewer from '../viewer.js';
+import * as UI from '../ui.js';
 
-import ArrayBufferSlice from '../ArrayBufferSlice';
-import { GfxDevice } from '../gfx/platform/GfxPlatform';
-import { BasicRRESRenderer } from './scenes';
-import { SceneContext } from '../SceneBase';
-import { assert, assertExists, readString } from '../util';
-import { MDL0Model, MDL0ModelInstance, RRESTextureHolder } from './render';
-import AnimationController from '../AnimationController';
-import { BasicGXRendererHelper, fillSceneParamsDataOnTemplate } from '../gx/gx_render';
-import { GXMaterialHacks } from '../gx/gx_material';
+import ArrayBufferSlice from '../ArrayBufferSlice.js';
+import { GfxDevice } from '../gfx/platform/GfxPlatform.js';
+import { BasicRRESRenderer } from './scenes.js';
+import { SceneContext } from '../SceneBase.js';
+import { assert, assertExists, readString } from '../util.js';
+import { MDL0Model, MDL0ModelInstance, RRESTextureHolder } from './render.js';
+import AnimationController from '../AnimationController.js';
+import { BasicGXRendererHelper, fillSceneParamsDataOnTemplate } from '../gx/gx_render.js';
+import { GXMaterialHacks } from '../gx/gx_material.js';
 import { mat4, vec3 } from 'gl-matrix';
-import { DataFetcher } from '../DataFetcher';
+import { DataFetcher } from '../DataFetcher.js';
 
 const pathBase = `zack_and_wiki`;
 
