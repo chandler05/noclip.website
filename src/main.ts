@@ -40,6 +40,7 @@ import * as Scenes_MarioKartWii from './MarioKartWii/Scenes_MarioKartWii.js';
 import * as Scenes_Okami from './rres/Scenes_Okami.js';
 import * as Scenes_SonicColors from './rres/Scenes_SonicColors.js';
 import * as Scenes_SuperSmashBrosBrawl from './rres/Scenes_SuperSmashBrosBrawl.js';
+import * as Scenes_ZackAndWiki from './rres/Scenes_ZackAndWiki.js';
 import * as Scenes_Test from './Scenes_Test.js';
 import * as Scenes_WiiSports from './WiiSports/Scenes_WiiSports.js';
 import * as Scenes_WiiSportsResort from './WiiSports/Scenes_WiiSportsResort.js';
@@ -211,6 +212,7 @@ const sceneGroups = [
     Scenes_HalfLife.sceneGroup,
     Scenes_Left4Dead2.sceneGroup,
     Scenes_NeoTokyo.sceneGroup,
+    Scenes_ZackAndWiki.sceneGroup,
 ];
 
 function convertCanvasToPNG(canvas: HTMLCanvasElement): Promise<Blob> {
